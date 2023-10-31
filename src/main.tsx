@@ -8,9 +8,8 @@ import { accueil } from './routes/routes'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* <HeaderComponent /> */}
-    
-      {/* <RouterProvider router={accueil}>
-      </RouterProvider> */}
+    <HeaderComponent />
+      <RouterProvider router={accueil}>
+      </RouterProvider>
   </React.StrictMode>,
 )
