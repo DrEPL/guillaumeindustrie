@@ -1,0 +1,49 @@
+#section-product{
+    width: 96%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#section-contact{
+    width: 96%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+#icon{
+    font-size: 75px;
+    color: #029ebd;
+}
+#products{
+    width: 100%;
+    margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .about{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .about-child{
+        grid-column: span 2 / span 2;
+    }
+}
+
+.background-image {
+    background-image: url('../assets/ustensile-3.jpg');
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+.linear-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+hr{
+    width: 7rem;
+    margin-top: 5px;
+    height: 6px;
+}
+  
