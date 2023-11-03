@@ -31,6 +31,36 @@
     }
 }
 
+.text-justify{
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .padding-r-4 {
+        padding-right: 1rem/* 16px */;
+    }
+
+    .margin-t-0 {
+        margin-top: 0px;
+    }
+}
+
+.h-450 {
+    height: 450px;
+}
+
+.h-300 {
+    height: 280px;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+.h-1-2 {
+    height: 80%;
+}
+
 .background-image {
     background-image: url('../assets/ustensile-3.jpg');
     background-size: cover;
@@ -45,5 +75,21 @@ hr{
     width: 7rem;
     margin-top: 5px;
     height: 6px;
+}
+
+.hr{
+    width: 7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 6px;
+}
+
+.padding-y-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.max-w-320{
+    max-width: 300px;
 }
   

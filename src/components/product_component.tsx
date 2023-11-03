@@ -73,8 +73,8 @@ export default function ProductsComponent() {
 
   img.forEach((item) => {
     return itemElements.push(
-      <div className="max-w-xs bg-white border border-gray-200 rounded-lg box" key={item.id}>
-        <img className="rounded-t-lg" src={item.img} alt="" />
+      <div className="max-w-xs h-300 bg-white border border-gray-200 rounded-lg box" key={item.id}>
+        <img className="rounded-t-lg h-1-2" src={item.img} alt="" />
         <div className="px-4 py-2">
           <h5 className="mb-2 text-xs font-bold tracking-tight text-gray-700 dark:text-white">{item.title}</h5>
           <p className="mb-3 font-normal text-xs text-gray-600 dark:text-gray-400">{item.detail}</p>

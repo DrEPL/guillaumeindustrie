@@ -28,8 +28,8 @@ export default function HeaderComponent() {
                 <Navbar.Link active={url === "/product" ? true : false}>
                     <NavLink to="/product" className="active">Produit</NavLink>
                 </Navbar.Link>
-                <Navbar.Link active={url === "/" ? true : false}>
-                    <NavLink to="#">Essence</NavLink>
+                <Navbar.Link active={url === "/essence" ? true : false}>
+                    <NavLink to="/essence">Essence</NavLink>
                 </Navbar.Link>
                 <Navbar.Link active={url === "/contact" ? true : false}>
                     <NavLink to="/contact">Contact</NavLink>

@@ -6,6 +6,7 @@ import ContactPage from '../pages/contact_page';
 import ProductPage from '../pages/product_page';
 import ErrorPage from '../pages/error_page';
 import LayoutComponent from '../components/layout_componet';
+import EssencePage from '../pages/essence_page';
 
 // export const accueil = createBrowserRouter([
 //     {
@@ -41,6 +42,7 @@ export const router = createBrowserRouter(
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={AboutPage()} />
                 <Route path="/contact" element={ContactPage()} />
+                <Route path="/essence" element={EssencePage()} />
                 <Route path="/product" element={ProductPage()} />
             </Route><Route path="*" element={ErrorPage()} />
         </>
